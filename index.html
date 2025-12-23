@@ -1,0 +1,16 @@
+cat <<EOF > index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Explorer</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: #1a1a1a; color: white; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
+EOF
